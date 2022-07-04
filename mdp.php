@@ -13,7 +13,6 @@
          <!-- Css Section Start -->
         <?php require_once("include/css.php"); ?>
     <!-- Css Section End -->
-       
     </head>
     <body class="home2">
 
