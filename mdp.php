@@ -263,7 +263,7 @@
 
 				</p>
 				<p>
-					<a size="4" href="./pdf/link1.pdf" style="font-size: 14pt"><b>LINK 1</b></a>
+					<a size="4" href="./pdf/LINK 1.pdf" style="font-size: 14pt"><b>LINK 1</b></a>
 				</p>
 			</td>
 		</tr>
@@ -1201,7 +1201,7 @@
 		<br />
 
 	</p>
-	<?php
+      <?php
        include 'footer.php';
        ?>
         <!-- Footer End -->
