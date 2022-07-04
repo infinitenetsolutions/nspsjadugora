@@ -1,21 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+    
 
 <head>
-	<title>NETAJI SUBHAS Public School</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- meta tag -->
+        <meta charset="utf-8">
+        <title>Netaji Subhas Public School - Class Room</title>
+        <meta name="description" content="">
+        <!-- responsive tag -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- Css Section Start -->
+        <?php require_once("include/css.php"); ?>
+    <!-- Css Section End -->
+       
+    </head>
+    <body class="home2">
 
-</head>
-<STYLE>
-	body {
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-		font-size: 14px;
-		line-height: 1.42857143;
-		color: #6f6969;
-		background-color: #fff;
-	}
+        
+      <!--Header start-->
+        <?php require_once("include/header.php"); ?>
+        <!--Header end-->
+<style>
+
 
 	body table {
 		margin-left: 371px !important;
@@ -25,8 +32,7 @@
 		text-align: center;
 	}
 
-	<?php include("include/header.php"); ?>
-</STYLE>
+</style>
 
 <body lang="en-US" link="#0000ff" vlink="#800000" dir="ltr">
 	<p align="center" style="margin-bottom: 0.14in">
@@ -1195,6 +1201,64 @@
 		<br />
 
 	</p>
-</body>
+	<?php
+       include 'footer.php';
+       ?>
+        <!-- Footer End -->
 
+        <!-- start scrollUp  -->
+        <div id="scrollUp">
+            <i class="fa fa-angle-up"></i>
+        </div>
+        
+        <!-- Search Modal Start -->
+        <div aria-hidden="true" class="modal fade search-modal" role="dialog" tabindex="-1">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" class="fa fa-close"></span>
+            </button>
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="search-block clearfix">
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="eg: Computer Technology" type="text">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search Modal End -->
+         
+
+        <!-- modernizr js -->
+        <script src="js/modernizr-2.8.3.min.js"></script>
+        <!-- jquery latest version -->
+        <script src="js/jquery.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- owl.carousel js -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- slick.min js -->
+        <script src="js/slick.min.js"></script>
+        <!-- isotope.pkgd.min js -->
+        <script src="js/isotope.pkgd.min.js"></script>
+        <!-- imagesloaded.pkgd.min js -->
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <!-- wow js -->
+        <script src="js/wow.min.js"></script>
+        <!-- counter top js -->
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <!-- magnific popup -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <!-- rsmenu js -->
+        <script src="js/rsmenu-main.js"></script>
+        <!-- plugins js -->
+        <script src="js/plugins.js"></script>
+         <!-- main js -->
+        <script src="js/main.js"></script>
+    </body>
+
+<!-- Mirrored from keenitsolutions.com/products/html/edulearn/edulearn-demo/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Apr 2020 06:17:37 GMT -->
 </html>
