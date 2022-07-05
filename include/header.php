@@ -218,7 +218,7 @@ Affilated to CBSE, New Delhi Upto 10+2 Level</span>
 								            <!--Contact Menu End-->
 								            <!--Exam Login Menu Start-->
 								            <li> <a href="http://nspsjadugora.com/admin/studentlogin" target="_blank">Exam Login</a></li>
-								            <li> <a href="mdp.php" target="_blank">Mandatory disclosure</a></li>
+								            <li> <a href="mdp.php" target="_blank">Mandatory public disclosure</a></li>
 								             <!--Exam Login Menu end-->
 										</ul>
 									</nav>	
